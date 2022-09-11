@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    list-style: none;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.093), rgb(0, 0, 0)),url(/img/bg-body.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    width: 420px;
+    background-color: rgb(237, 201, 57);
+    
+}
+
+header{
+    position:fixed;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(0, 0, 0);
+    width: 420px;
+    height: 90px;;   
+    justify-content: space-around;
+}
+
+header > h1{
+    color:rgb(255, 255, 255);
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    height: min-content;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0 0 1px goldenrod,
+                 0 0 10px goldenrod,
+                 0 0 20px goldenrod,
+                 0 0 40px goldenrod;
+}
+
+header > p {
+    display: flex;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 15%;
+    text-shadow: 0 0 1px goldenrod,
+                 0 0 10px goldenrod,
+                 0 0 20px goldenrod,
+                 0 0 40px goldenrod;
+    
+}
+
+main{
+    margin-top: 90px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border-bottom: solid;
+}
+
+.bg-01{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(0, 0, 0, 0.327), rgba(0, 0, 0, 0.327)),url(/img/bg-01.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 420px;
+    height: 320px;
+    border-bottom: solid;
+}
+
+.bg-01 > span{
+    margin: auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 100px;
+    text-shadow: 0 0 10px black,
+                 0 0 10px black,
+                 0 0 10px black,
+                 0 0 10px black;
+}
+
+.sub-titles{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 35px;
+    color: white;
+    text-shadow: 0 0 10px black,
+                 0 0 10px black,
+                 0 0 10px black,
+                 0 0 10px black;
+    margin: 20px;
+}
+
+.cards{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.blend1{
+    background-image: url(/img/prince.jpg);
+}
+.blend2{
+    background-image: url(/img/uau.jpg);
+}
+.blend3{
+    background-image: url(/img/poker.jpg);
+}
+.blend4{
+    background-image: url(/img/imperador.jpg);
+}
+.blend5{
+    background-image: url(/img/fenômeno.jpg);
+}
+
+.burger{
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+}
+
+.burger-description{
+    display: flex;
+    flex-flow: column wrap;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.burger-description > p:nth-child(1){
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
+.burger-description > p:nth-child(2){
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+
+.burger-description > p:nth-child(3){
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.cards > ul > li{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.cards :nth-child(2) > li{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+}
+
+.batatada{
+    background: url(/img/fries.jpg);
+    background-size: cover;
+}
+
+.salad{
+    background: url(/img/salad.jpg);
+    background-size: cover;
+}
+
+.bg-02{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(rgba(0, 0, 0, 0.327), rgba(0, 0, 0, 0.327)),url(/img/bg-02.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 420px;
+    height: 320px;
+    border-bottom: solid;
+    justify-content: center;
+}
+
+.bg-02 > span{
+    margin: auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0 0 10px black,
+                 0 0 10px black,
+                 0 0 10px black,
+                 0 0 10px black;
+}
+
+footer{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: black;
+}
+
+footer > span{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 10px black,
+                 0 0 10px black,
+                 0 0 10px black,
+                 0 0 10px black;
+    margin: 20px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+}
+.social-icon > a > i{
+    color: #ffffff;
+    text-shadow:    0 0 10px goldenrod,
+                    0 0 20px goldenrod,
+                    0 0 40px goldenrod;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
